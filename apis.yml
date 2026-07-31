@@ -1,7 +1,29 @@
 aid: noh
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/noh.png
 name: Noh
-description: Noh is a company surfaced as a portfolio company of kindred-ventures and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Noh is a Brazilian consumer fintech (neobank) founded in November 2021 by Ana
+  Zucato and Octavio Turra, headquartered in Sao Paulo, SP. Noh pioneered
+  Brazil's first joint account and shared card for couples, letting two partners
+  manage money together with equal permissions, real-time expense visibility,
+  automatic categorization, and a shared spending limit based on combined income.
+  Products include a joint checking account, a shared Visa card (prepaid and
+  credit), and payments via Pix, boleto, and card, plus joint investing. It is a
+  consumer mobile app (iOS and Android) with no public developer API, developer
+  portal, or documentation surface at this time. Backed by Kindred Ventures and
+  other investors; added to the API Evangelist network as a portfolio-lead
+  company profile.
 url: https://raw.githubusercontent.com/api-evangelist/noh/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +33,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Fintech
+- Neobank
+- Payments
+- Banking
+- Consumer Finance
+- Brazil
+- Couples
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +52,20 @@ maintainers:
 common:
 - type: Website
   url: https://noh.com.br/
+- type: Blog
+  url: https://noh.com.br/blog
+- type: Pricing
+  url: https://noh.com.br/tarifas
+- type: Support
+  url: https://noh.com.br/meajuda
+- type: TermsOfService
+  url: https://noh.com.br/termos-de-uso
+- type: PrivacyPolicy
+  url: https://noh.com.br/politica-de-privacidade
+- type: DomainSecurity
+  url: security/noh-domain-security.yml
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
